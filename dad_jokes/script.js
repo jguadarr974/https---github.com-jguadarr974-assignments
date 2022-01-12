@@ -13,7 +13,7 @@ async function generateJoke(){
         }
     }
 
-    const res = await fetch('https://icanhazdadjoke.com', config)
+    const res = await fetch('https://icanhazdadjoke.com', config) // this is where we get the dad jokes from 
 
     const data = await res.json()
 
